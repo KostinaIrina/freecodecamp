@@ -65,3 +65,11 @@ myArray.unshift(["Paul", 35]);
 //.................................................
 
 const myList = [["Chocolate Bar", 15], ["Cereal", 5], ["Chocolate", 15], ["Chocolate Bar", 15], ["Chocolate Bar", 15]];
+
+
+//.................................................49
+
+function reusableFunction() {
+    console.log("Hi World");
+  }
+  reusableFunction();
