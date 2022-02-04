@@ -83,8 +83,6 @@ function reusableFunction() {
     functionWithArgs(1, 2);
 
 //.................................................51
-
-
     function timesFive(num) {
         return num * 5;
       }
@@ -93,8 +91,6 @@ function reusableFunction() {
       // answer is 10
 
 //.................................................52
-
-
     // Declare the myGlobal variable below this line
 let myGlobal = 10;
 
@@ -102,9 +98,7 @@ function fun1() {
   // Assign 5 to oopsGlobal Here
 oopsGlobal = 5;
 }
-
 // Only change code above this line
-
 function fun2() {
   var output = "";
   if (typeof myGlobal != "undefined") {
@@ -115,12 +109,7 @@ function fun2() {
   }
   console.log(output);
 }  
-
-
 //.................................................53
-
-
-
 function myLocalScope() {
     // Only change code below this line
   var myVar = 5;
@@ -134,8 +123,6 @@ function myLocalScope() {
 
 
 //.................................................54
-
-
 // Setup
 const outerWear = "T-Shirt";
 
@@ -145,14 +132,8 @@ const outerWear = "sweater";
   // Only change code above this line
   return outerWear;
 }
-
 myOutfit();
-
-
-
 //.................................................55
-
-
 // Setup
 let sum = 0;
 
@@ -170,11 +151,7 @@ function addFive() {
 addThree();
 addFive();
 
-
-
 //.................................................55
-
-
 
 // Setup
 let processed = 0;
@@ -185,9 +162,7 @@ function processArg(num) {
 
 // Only change code below this line
 processed = processArg(7);
-
 //.................................................56
-
 function nextInLine(arr, item) {
     // Only change code below this line
    arr.push(item); 
@@ -204,7 +179,6 @@ function nextInLine(arr, item) {
   console.log("After: " + JSON.stringify(testArr));
 
 //.................................................57 
-
   function welcomeToBooleans() {
     // Only change code below this line
   
@@ -212,9 +186,7 @@ function nextInLine(arr, item) {
   
     // Only change code above this line
   }
-
-  //................................................
-
+//................................................
   function trueOrFalse(wasThatTrue) {
     // Only change code below this line
     if (wasThatTrue) {
@@ -226,7 +198,7 @@ function nextInLine(arr, item) {
   
   }
 
-  //...............................................
+//...............................................
   // Setup
 function testEqual(val) {
     if (val == 12) { // Change this line
@@ -236,8 +208,7 @@ function testEqual(val) {
   }
   
   testEqual(10);
-/..................................................
-
+//..................................................
 // Setup
 function testStrict(val) {
     if (val === 7) { // Change this line
@@ -269,7 +240,7 @@ function testNotEqual(val) {
   
   testNotEqual(10);
   
-  //................................................
+//................................................
 
   // Setup
 function testStrictNotEqual(val) {
